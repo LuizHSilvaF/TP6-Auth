@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema base do app -->
+    <style name="Theme.TP6AuthFirebase" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- Tema para a Splash Screen -->
+    <style name="Theme.TP6AuthFirebase.Splash" parent="Theme.TP6AuthFirebase">
+        <item name="android:windowBackground">@color/primary_dark</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <!-- Tema customizado para o FirebaseUI -->
+    <style name="Theme.TP6AuthFirebase.FirebaseUI" parent="FirebaseUI">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorButtonNormal">@color/primary</item>
+        <item name="colorControlHighlight">@color/primary_light</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+</resources>

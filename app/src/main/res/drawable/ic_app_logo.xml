@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#6200EE"
+        android:pathData="M60,60m-55,0a55,55 0,1 1,110 0a55,55 0,1 1,-110 0" />
+
+    <!-- Lock icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,30c-8.3,0 -15,6.7 -15,15v7.5H40c-2.8,0 -5,2.2 -5,5v25c0,2.8 2.2,5 5,5h40c2.8,0 5,-2.2 5,-5v-25c0,-2.8 -2.2,-5 -5,-5h-5V45c0,-8.3 -6.7,-15 -15,-15zM60,35c5.5,0 10,4.5 10,10v7.5H50V45c0,-5.5 4.5,-10 10,-10zM60,65c2.8,0 5,2.2 5,5s-2.2,5 -5,5s-5,-2.2 -5,-5s2.2,-5 5,-5z" />
+</vector>
